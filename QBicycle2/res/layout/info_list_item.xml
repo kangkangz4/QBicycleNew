@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/StationName"
+        style="@style/textview_style"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/blue"
+        android:text="Medium Text"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <TextView
+            style="@style/textview_style"
+            android:text="@string/bicycleNum" />
+
+        <TextView
+            android:id="@+id/bicyleNum"
+            style="@style/textview_style"
+            android:layout_width="60dp"
+            android:gravity="center"
+            android:text="15"
+            android:textColor="@color/red" />
+
+        <TextView
+            style="@style/textview_style"
+            android:text="@string/volt" />
+
+        <TextView
+            android:id="@+id/volt"
+            style="@style/textview_style"
+            android:layout_width="40dp"
+            android:gravity="right"
+            android:text="11"
+            android:textColor="@color/red" />
+
+        <TextView
+            style="@style/textview_style"
+            android:layout_marginRight="20dp"
+            android:text="@string/voltnum" />
+
+        <TextView
+            style="@style/textview_style"
+            android:text="@string/temperature" />
+
+        <TextView
+            android:id="@+id/temperature"
+            style="@style/textview_style"
+            android:layout_width="40dp"
+            android:gravity="right"
+            android:text="15"
+            android:textColor="@color/red" />
+
+        <TextView
+            style="@style/textview_style"
+            android:text="@string/tempnum" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <TextView
+            style="@style/textview_style"
+            android:text="@string/bicycleNumAlertTime" />
+
+        <TextView
+            android:id="@+id/bicycleNumAlertTime"
+            style="@style/textview_style"
+            android:layout_width="90dp"
+            android:gravity="center"
+            android:text="10/30 14:30"
+            android:textSize="14sp" />
+
+        <TextView
+            style="@style/textview_style"
+            android:text="@string/alarmTime_Volt" />
+
+        <TextView
+            android:id="@+id/alarmTime_Volt"
+            style="@style/textview_style"
+            android:layout_width="90dp"
+            android:gravity="center"
+            android:text="11/22 15:20"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+         >
+
+        <TextView
+            style="@style/textview_style"
+            android:layout_marginLeft="10dp"
+            android:text="@string/alertReason" />
+
+        <TextView
+            android:id="@+id/alertReason"
+            style="@style/textview_style"
+            android:layout_marginLeft="10dp"
+            android:text="TextView"
+            android:textColor="@color/red" />
+    </LinearLayout>
+
+</LinearLayout>

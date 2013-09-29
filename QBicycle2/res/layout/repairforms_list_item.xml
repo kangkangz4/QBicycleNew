@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/stationTextView"
+        style="@style/textview_style"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:text="11"
+	 />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+         >
+
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/textview_style"
+            android:text="@string/cwnoId" />
+
+        <TextView
+            android:id="@+id/cwnoTextView"
+            style="@style/textview_style"
+            android:layout_width="110dp"
+            android:gravity="center"
+            android:text="11"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/textview_style"
+            android:text="@string/bicycleId" />
+
+        <TextView
+            android:id="@+id/bicycleIdTextView"
+            style="@style/textview_style"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="11111"
+            android:textColor="@color/red" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/contentsTextView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Medium Text"
+        android:textColor="@color/gray"
+        style="@style/textview_style" />
+
+</LinearLayout>

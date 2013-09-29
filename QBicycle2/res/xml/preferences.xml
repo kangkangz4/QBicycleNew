@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory 
+        
+        android:title="功能设置" >
+        <!-- android:layout="@layout/preference_category" -->
+        
+        <EditTextPreference
+            android:key="serverurl"
+            android:layout="@layout/preference"
+            android:summary="http://"
+            android:title="服务器地址" />
+
+        <ListPreference
+            android:entries="@array/cache_time"
+            android:entryValues="@array/cache_time_value"
+            android:key="cachetime"
+            android:layout="@layout/preference"
+            android:summary="10分钟"
+            android:title="缓存时间" />
+
+        <Preference
+            android:key="cache"
+            android:layout="@layout/preference"
+            android:summary="0KB"
+            android:title="清除缓存" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="其他" >
+       <!--  android:layout="@layout/preference_category" -->
+        
+        <Preference
+            android:key="feedback"
+            android:layout="@layout/preference"
+            android:summary="用户意见反馈"
+            android:title="意见反馈" />
+        <Preference
+            android:key="update"
+            android:layout="@layout/preference"
+            android:summary="检测是否有新版本"
+            android:title="新版本检测" />
+        <Preference
+            android:key="about"
+            android:layout="@layout/preference"
+            android:summary="关于我们、版权信息"
+            android:title="关于我们" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

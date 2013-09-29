@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textDate"
+        style="@style/rent_text_stryle"
+        android:layout_weight="1"
+         />
+
+    <TextView
+        android:id="@+id/textStart"
+        style="@style/rent_text_stryle"
+        android:layout_weight="1.5"
+         />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:src="@drawable/arrow" />
+
+    <TextView
+        android:id="@+id/textEnd"
+        style="@style/rent_text_stryle"
+        android:layout_weight="1.5"
+         />
+
+    <TextView
+        android:id="@+id/textTime"
+        style="@style/rent_text_stryle"
+        android:layout_width="28dp"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:text="@string/minute" />
+
+    <TextView
+        android:id="@+id/textCash"
+        style="@style/rent_text_stryle"
+        android:layout_width="32dp"
+         />
+    
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yuan"
+        android:textColor="@color/gray"
+        />
+
+</LinearLayout>

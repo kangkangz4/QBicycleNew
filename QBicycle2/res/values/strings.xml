@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">3Q公共自行车移动管理</string>
+    <string name="app_title">3Q无锡公共自行车客户端</string>
+    <string name="copyright">江苏宏溥科技有限公司</string>
+    <string name="stationSearch">站点查询</string>
+    <string name="normalUser">普通用户</string>
+    <string name="OperationUser">运维人员</string>
+    <string name="username">用户名</string>
+    <string name="usernameHint">请输入用户名</string>
+    <string name="passwordHint">请输入密码</string>
+    <string name="password">密码</string>
+    <string name="remember">记住密码</string>
+    <string name="login">登录</string>
+    
+    <string name="main_menu_setting">设置</string>
+    <string name="main_menu_exit">退出</string>
+    
+ 	<string name="setting_head_title">系统设置</string>    
+    <string name="pop_bicycleNum">车位数量</string>
+    <string name="pop_bicycleLeftNum">可用数量</string>
+    
+    <string name="frame_title_alarm_station">报警站点</string>
+    <string name="frame_title_alarm_category">车辆</string>
+    <string name="frame_title_alarm_nodeal">未处理</string>
+    <string name="frame_title_alarm_deal">已处理</string>
+    <string name="frame_title_station_state">状态</string>
+    <string name="frame_title_station_alarm">报警</string>
+    <string name="frame_title_station_local">位置</string>
+    <string name="frame_title_station_search">查找</string>
+    <string name="frame_title_order_restart">重启</string>
+    <string name="frame_title_order_open">开锁</string>
+    <string name="frame_title_order_message">字幕</string>
+    <string name="frame_title_bicycle_return">还车</string>
+    <string name="frame_title_bicycle_borrow">借车</string>
+    
+    <string name="recorders">记录</string>
+   
+    
+    <string name="send_message">发送消息</string>
+    <string name="send">发送</string>
+    <string name="send_hint">请输入发送内容</string>
+    
+    <string name="search_hint">请输入查询卡号</string>
+    <string name="mobile_hint">请输入手机号或身份证号</string>
+    <string name="phone_hint">请输入手机号</string>
+    <string name="station_hint">请输入车站编号</string>
+    <string name="cwno_hint">请输入车桩编号</string>
+    <string name="bicycle_hint">请输入车辆编号</string>
+    
+    <string name="app_menu_surelogout">您确定要退出当前程序吗？</string>
+    <string name="sure">确定</string>
+	<string name="cancle">取消</string>
+	<string name="show">站点一览</string>
+	<string name="momo">租车记录</string>
+	<string name="search">查询</string>
+	
+	<string name="mobileNo">手机号或身份证号</string>
+	<string name="phoneNo">手机号</string>
+	<string name="stationNo">车站编号</string>
+	<string name="cwNo">车桩编号</string>
+	<string name="bicycleNo">车辆编号</string>
+	<string name="restart">重启</string>
+	<string name="open">解锁</string>
+	<string name="messagetitle">当前车站流动字幕</string>
+	<string name="messageStart">启用</string>
+	<string name="messageStop">停用</string>
+	<string name="update">更新</string>
+	<string name="alarmInfoTitle">警报型号</string>
+	<string name="doAlarmTitle">警报处理</string>
+	<string name="CategoryCode">问题类别</string>
+	<string name="Reason">问题描述</string>
+	<string name="Remark">备注</string>
+	<string name="bicycleId">车辆</string>
+	<string name="stationId">车站</string>
+	<string name="cwnoId">车桩</string>
+	
+	<string name="bicycleNum">车辆数</string>
+	<string name="volt">电压</string>
+	<string name="voltnum">V</string>
+	<string name="temperature">温度</string>
+	<string name="tempnum">℃</string>
+	<string name="bicycleNumAlertTime">调度报警</string>
+	<string name="alarmTime_Volt">电压报警</string>
+	<string name="alertReason">报警原因</string>
+	
+	<string name="dialogOK">提交</string>
+	
+	<string name="button_ok">确定</string>
+	
+	<string name="alarm">站点警报</string>
+	<string name="order">站点功能</string>
+	<string name="repair">派工信息</string>
+	<string name="info">站点信息</string>
+	
+	<string name="bicycleSum">总数</string>
+	<string name="bicycleLast">剩余</string>
+	
+	<string name="yuan">元</string>
+	<string name="minute">分钟</string>
+  
+</resources>

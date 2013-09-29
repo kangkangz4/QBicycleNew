@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_bicycle_borrow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textview_style"
+            android:text="@string/mobileNo" />
+
+        <EditText
+            android:id="@+id/ET_Mobile"
+            style="@style/edit_style"
+            android:hint="@string/mobile_hint"
+            android:inputType="number" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/textview_style"
+            android:layout_marginTop="10dp"
+            android:text="@string/stationNo" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/ET_Station"
+                style="@style/edit_style"
+                android:hint="@string/station_hint"
+                android:inputType="number" />
+
+            <ImageButton
+                android:id="@+id/BT_station_scan"
+                style="@style/scanbutton_style" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/textview_style"
+            android:layout_marginTop="10dp"
+            android:text="@string/cwNo" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/ET_Cwno"
+                style="@style/edit_style"
+                android:hint="@string/cwno_hint"
+                android:inputType="number" />
+
+            <ImageButton
+                android:id="@+id/BT_cwno_scan"
+                style="@style/scanbutton_style" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/BT_Brower"
+            style="@style/button_style"
+            android:layout_marginTop="10dp"
+            android:text="@string/frame_title_bicycle_borrow" />
+    </LinearLayout>
+
+</LinearLayout>

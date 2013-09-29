@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_order_restart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/textview_style"
+        android:text="@string/stationNo" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/ET_RestartStation"
+            style="@style/edit_style"
+            android:hint="@string/station_hint"
+            android:inputType="number" >
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/BT_restart_scan"
+            style="@style/scanbutton_style" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/BT_Restart"
+        style="@style/button_style"
+        android:layout_marginTop="10dp"
+        android:text="@string/restart" />
+
+</LinearLayout>
